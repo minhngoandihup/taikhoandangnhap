@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    margin: 0;
+
+}
+.tong{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: none;
+    border-radius: 10px;   
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+}
+.bentrai{
+    width: 50%;
+    margin: 10px;   
+}
+
+
+.khung{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 550;
+    font-size: 14px;
+
+}
+#dangnhap{
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: 350;
+}
+
+li{
+    list-style: none
+}
+
+.hoac{
+    text-align: center;
+}
+.hoac>img{
+    cursor: pointer;
+}
+
+
+.benphai{
+    border-radius: 0px 6px 6px 0px;
+    width: 50%;
+    background: #e7f4ff;
+}
+.benphai>img{
+    margin-top: 20%;
+    margin-left: 25%;
+}
+.benphai p{
+    color: #1874e5;
+    text-align: center;
+}
